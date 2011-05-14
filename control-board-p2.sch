@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/13/2011 9:02:28 PM
+EESchema Schematic File Version 2  date 5/14/2011 12:07:01 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,7 +34,6 @@ LIBS:control-board-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-encoding utf-8
 Sheet 3 4
 Title "Control board"
 Date "14 may 2011"

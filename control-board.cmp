@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 5/13/2011 6:34:15 PM
+Cmp-Mod V01 Created by CvPCB (2011-01-22 BZR 2754)-stable date = 5/14/2011 12:07:18 AM
 
 BeginCmp
 TimeStamp = /4DCC234C/4D5B5085;
@@ -316,9 +316,9 @@ IdModule  = JACK_BNC;
 EndCmp
 
 BeginCmp
-TimeStamp = /4DCC234C/4DCDB142;
+TimeStamp = /4DCC234C/4DCDFF97;
 Reference = J4;
-ValeurCmp = OUT_TO_SWITCHES;
+ValeurCmp = OUT_TO_HV_DRIVER;
 IdModule  = JACK_BNC;
 EndCmp
 
