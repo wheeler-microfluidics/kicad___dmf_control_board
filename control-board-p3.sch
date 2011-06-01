@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/14/2011 12:07:01 AM
+EESchema Schematic File Version 2  date 5/16/2011 2:48:40 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,10 @@ LIBS:control-board-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 4 4
 Title "Control board"
-Date "14 may 2011"
+Date "16 may 2011"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -45,7 +46,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	8850 4350 9200 4350
+	5050 3100 5050 2250
+Wire Wire Line
+	5150 2450 5150 1950
+Wire Wire Line
+	5300 2450 5150 2450
+Wire Wire Line
+	5150 1950 4300 1950
+Wire Wire Line
+	7150 1700 7400 1700
+Wire Wire Line
+	7400 2050 7900 2050
+Connection ~ 7150 1300
+Wire Wire Line
+	7400 2050 7400 1700
+Connection ~ 7400 1300
+Wire Wire Line
+	10400 3350 10400 3250
+Wire Wire Line
+	10400 3250 10200 3250
 Wire Wire Line
 	5800 4400 5800 4300
 Connection ~ 4500 4400
@@ -76,19 +95,6 @@ Wire Wire Line
 	6500 4000 5800 4000
 Wire Wire Line
 	5800 3900 5800 3800
-Connection ~ 9050 4350
-Wire Wire Line
-	9200 4350 9200 4250
-Wire Wire Line
-	9200 4250 9800 4250
-Wire Wire Line
-	9800 4250 9800 4200
-Wire Wire Line
-	5300 2250 5050 2250
-Wire Wire Line
-	5050 2250 5050 1950
-Wire Wire Line
-	5050 1950 4300 1950
 Wire Wire Line
 	1850 2400 1850 3000
 Wire Wire Line
@@ -141,10 +147,6 @@ Wire Wire Line
 	3550 5450 1450 5450
 Wire Wire Line
 	1450 5450 1450 5650
-Wire Wire Line
-	9800 3750 8850 3750
-Wire Wire Line
-	9800 3850 9050 3850
 Wire Wire Line
 	3150 5450 3150 5550
 Connection ~ 2550 5450
@@ -201,10 +203,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 3100 5050 3100
 Wire Wire Line
-	5050 3100 5050 2450
-Wire Wire Line
-	5050 2450 5300 2450
-Wire Wire Line
 	5800 3800 6850 3800
 Wire Wire Line
 	6850 3800 6850 3750
@@ -231,7 +229,43 @@ Wire Wire Line
 Wire Wire Line
 	4500 4150 4500 4100
 Wire Wire Line
-	8850 3750 8850 3850
+	9800 3750 10200 3750
+Wire Wire Line
+	9800 3850 10400 3850
+Wire Wire Line
+	7900 1950 7700 1950
+Wire Wire Line
+	7700 1950 7700 1300
+Wire Wire Line
+	7900 2050 7900 2150
+Wire Wire Line
+	7700 1300 7150 1300
+Wire Wire Line
+	5050 2250 5300 2250
+Text GLabel 7150 1700 0    60   Input ~ 0
+GND
+$Comp
+L C C23
+U 1 1 4DD1675D
+P 7400 1500
+F 0 "C23" H 7450 1600 50  0000 L CNN
+F 1 "0.01uF" H 7450 1400 50  0000 L CNN
+	1    7400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C22
+U 1 1 4DD16726
+P 7150 1500
+F 0 "C22" H 7200 1600 50  0000 L CNN
+F 1 "0.1uF" H 7200 1400 50  0000 L CNN
+	1    7150 1500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9800 4200
+NoConn ~ 9800 4100
+Text GLabel 9800 3850 2    60   Input ~ 0
+SCL
 Text GLabel 5800 4200 2    60   Input ~ 0
 VGND
 Text GLabel 4500 4100 0    60   Input ~ 0
@@ -485,12 +519,8 @@ Text GLabel 3600 3200 0    60   Input ~ 0
 VGND
 Text GLabel 1850 1250 0    60   Input ~ 0
 HV_ATTEN
-Text GLabel 7900 1950 0    60   Input ~ 0
+Text GLabel 7150 1300 0    60   Input ~ 0
 +5V
-Text GLabel 7900 2050 0    60   Input ~ 0
-GND
-Text GLabel 7900 2150 0    60   Input ~ 0
-GND
 Text GLabel 7900 2550 0    60   Input ~ 0
 FEEDBACK
 Text GLabel 7900 2450 0    60   Input ~ 0
@@ -509,12 +539,8 @@ Text GLabel 7900 4400 0    60   Input ~ 0
 GND
 Text GLabel 7900 4300 0    60   Input ~ 0
 GND
-Text GLabel 9800 4200 2    60   Input ~ 0
+Text GLabel 10400 3250 2    60   Input ~ 0
 +5V
-Text GLabel 9800 4100 2    60   Input ~ 0
-+5V
-Text GLabel 9800 3850 2    60   Input ~ 0
-SCL
 Text GLabel 9800 3750 2    60   Input ~ 0
 SDA
 Text GLabel 9800 2750 2    60   Input ~ 0
@@ -662,19 +688,19 @@ NoConn ~ 7900 1750
 $Comp
 L R R26
 U 1 1 4D5B5C57
-P 8850 4100
-F 0 "R26" V 8930 4100 50  0000 C CNN
-F 1 "5.1k" V 8850 4100 50  0000 C CNN
-	1    8850 4100
-	1    0    0    -1  
+P 10200 3500
+F 0 "R26" V 10280 3500 50  0000 C CNN
+F 1 "5.1k" V 10200 3500 50  0000 C CNN
+	1    10200 3500
+	-1   0    0    1   
 $EndComp
 $Comp
 L R R27
 U 1 1 4D5B5C50
-P 9050 4100
-F 0 "R27" V 9130 4100 50  0000 C CNN
-F 1 "5.1k" V 9050 4100 50  0000 C CNN
-	1    9050 4100
-	1    0    0    -1  
+P 10400 3600
+F 0 "R27" V 10480 3600 50  0000 C CNN
+F 1 "5.1k" V 10400 3600 50  0000 C CNN
+	1    10400 3600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC

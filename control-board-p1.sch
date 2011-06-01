@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/14/2011 12:07:01 AM
+EESchema Schematic File Version 2  date 5/16/2011 2:48:40 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,10 @@ LIBS:control-board-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 2 4
 Title "Control board"
-Date "14 may 2011"
+Date "16 may 2011"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -168,13 +169,13 @@ Text GLabel 8650 3750 2    60   Input ~ 0
 POT1
 Text Notes 3550 4950 0    60   ~ 0
 600V resistor
-Text GLabel 5450 2300 0    60   Input ~ 0
-D13
-Text GLabel 5150 2300 0    60   Input ~ 0
-D12
-Text GLabel 4600 2300 0    60   Input ~ 0
-D11
 Text GLabel 4300 2300 0    60   Input ~ 0
+D13
+Text GLabel 4600 2300 0    60   Input ~ 0
+D12
+Text GLabel 5150 2300 0    60   Input ~ 0
+D11
+Text GLabel 5450 2300 0    60   Input ~ 0
 D10
 Text GLabel 6650 3850 0    60   Input ~ 0
 VGND
