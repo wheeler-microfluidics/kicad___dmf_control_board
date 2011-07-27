@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 5/16/2011 2:48:40 PM
+EESchema Schematic File Version 2  date 7/27/2011 1:25:17 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 4
 Title "Control board"
-Date "16 may 2011"
+Date "6 jun 2011"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""

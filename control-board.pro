@@ -1,4 +1,4 @@
-update=5/16/2011 4:35:44 PM
+update=7/27/2011 1:29:34 PM
 version=1
 last_client=eeschema
 [general]
@@ -14,6 +14,7 @@ PadDrlX=320
 PadDimH=600
 PadDimV=600
 BoardThickness=630
+SgPcb45=1
 TxtPcbV=800
 TxtPcbH=600
 TxtModV=600
@@ -38,8 +39,6 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=wheelerlab
-LibName12=wheeler-lab-logo
-LibName13=qr-code
 [eeschema]
 version=1
 LibDir=../../../library

@@ -1,0 +1,5 @@
+*add ethernet port and SD card slot
+*replace series resistor with current monitor (resistors in feedback
+ loop of op-amp
+*add switch expander to enable > 320 chanels
+ (http://www.maxim-ic.com/app-notes/index.mvp/id/955)
