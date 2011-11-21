@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 7/27/2011 1:25:17 PM
+EESchema Schematic File Version 2  date 11/18/2011 5:33:32 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 4
 Title "Control board"
-Date "6 jun 2011"
+Date "18 nov 2011"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -45,12 +45,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 9800 2050 2    60   Input ~ 0
+PWR_ON
 Wire Wire Line
 	5050 3100 5050 2250
 Wire Wire Line
 	5150 2450 5150 1950
 Wire Wire Line
-	5300 2450 5150 2450
+	5150 2450 5300 2450
 Wire Wire Line
 	5150 1950 4300 1950
 Wire Wire Line
@@ -201,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1300 4700 1300
 Wire Wire Line
-	4300 3100 5050 3100
+	5050 3100 4300 3100
 Wire Wire Line
 	5800 3800 6850 3800
 Wire Wire Line
@@ -656,7 +658,6 @@ F 1 "ARDUINO_MEGA_SHIELD" H 8850 1150 60  0000 C CNN
 $EndComp
 NoConn ~ 9800 2250
 NoConn ~ 9800 3650
-NoConn ~ 9800 2050
 NoConn ~ 7900 4850
 NoConn ~ 7900 6150
 NoConn ~ 7900 6050
