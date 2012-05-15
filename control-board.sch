@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/18/2011 5:33:32 PM
+EESchema Schematic File Version 2  date 15/05/2012 3:48:32 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:control-board-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 4
 Title "Control board"
-Date "18 nov 2011"
+Date "15 may 2012"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -46,16 +45,16 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1250 1050 1150 1150
-U 4DCC234C
-F0 "page 1" 60
-F1 "control-board-p1.sch" 60
-$EndSheet
-$Sheet
 S 3300 1050 1150 1150
 U 4DCB07B6
 F0 "page 2" 60
 F1 "control-board-p2.sch" 60
+$EndSheet
+$Sheet
+S 1250 1050 1150 1150
+U 4DCC234C
+F0 "page 1" 60
+F1 "control-board-p1.sch" 60
 $EndSheet
 $Sheet
 S 5400 1050 1150 1150

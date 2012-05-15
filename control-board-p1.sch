@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/18/2011 5:33:32 PM
+EESchema Schematic File Version 2  date 15/05/2012 3:48:32 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:control-board-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 4
+Sheet 3 4
 Title "Control board"
-Date "18 nov 2011"
+Date "15 may 2012"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -45,12 +44,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 1800 5350
-Connection ~ 2050 5350
-Connection ~ 2300 5350
-Connection ~ 2600 5350
 Wire Wire Line
-	1800 5350 3100 5350
+	4650 4600 4650 4750
+Wire Wire Line
+	8400 3950 8000 3950
+Wire Wire Line
+	8000 3950 8000 3750
+Connection ~ 2600 5350
 Wire Wire Line
 	2800 3350 3150 3350
 Connection ~ 3100 4150
@@ -99,8 +99,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 3150 8250 3150
 Wire Wire Line
-	7700 3750 7700 3950
-Wire Wire Line
 	6300 2650 5150 2650
 Wire Wire Line
 	9700 4050 9700 4150
@@ -136,12 +134,8 @@ Wire Wire Line
 Wire Wire Line
 	4250 4000 4500 4000
 Wire Wire Line
-	8200 3750 8400 3750
-Wire Wire Line
 	6950 4050 6950 4100
 Connection ~ 6500 4100
-Wire Wire Line
-	8200 3950 8400 3950
 Wire Wire Line
 	8250 4550 8400 4550
 Wire Wire Line
@@ -199,39 +193,14 @@ Wire Wire Line
 	2800 3150 3150 3150
 Wire Wire Line
 	2800 3550 3150 3550
-$Comp
-L R R29
-U 1 1 4EC6D827
-P 1800 5100
-F 0 "R29" V 1880 5100 50  0000 C CNN
-F 1 "374" V 1800 5100 50  0000 C CNN
-	1    1800 5100
-	1    0    0    -1  
-$EndComp
-Text GLabel 1800 4850 1    60   Input ~ 0
-+12VPWR
-Text GLabel 2300 4850 1    60   Input ~ 0
-+3.3VPWR
-$Comp
-L R R31
-U 1 1 4EC6D806
-P 2300 5100
-F 0 "R31" V 2380 5100 50  0000 C CNN
-F 1 "374" V 2300 5100 50  0000 C CNN
-	1    2300 5100
-	1    0    0    -1  
-$EndComp
-Text GLabel 2050 4850 1    60   Input ~ 0
-+5VPWR
-$Comp
-L R R30
-U 1 1 4EC6D7EA
-P 2050 5100
-F 0 "R30" V 2130 5100 50  0000 C CNN
-F 1 "374" V 2050 5100 50  0000 C CNN
-	1    2050 5100
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	8000 3750 8400 3750
+Wire Wire Line
+	2600 5350 3100 5350
+Text GLabel 4650 4600 1    60   Input ~ 0
+V_HV
+Text GLabel 9700 3750 2    60   Input ~ 0
+VGND
 Text Notes 2300 2050 0    60   ~ 0
 Power supply connection
 Text GLabel 4150 3050 2    60   Input ~ 0
@@ -300,8 +269,6 @@ Text Notes 3700 3750 0    60   ~ 0
 BNC connections
 Text GLabel 9700 3950 2    60   Input ~ 0
 POT2
-Text GLabel 9700 3750 2    60   Input ~ 0
-POT1
 Text Notes 4600 4950 0    60   ~ 0
 600V resistor
 Text GLabel 5350 2300 0    60   Input ~ 0
@@ -312,7 +279,7 @@ Text GLabel 6200 2300 0    60   Input ~ 0
 D11
 Text GLabel 6500 2300 0    60   Input ~ 0
 D10
-Text GLabel 7700 3850 0    60   Input ~ 0
+Text GLabel 8000 3850 0    60   Input ~ 0
 VGND
 Text GLabel 8400 3850 0    60   Input ~ 0
 +5V
@@ -328,8 +295,6 @@ Text GLabel 9700 3850 2    60   Input ~ 0
 GND
 Text GLabel 9700 4150 2    60   Input ~ 0
 VGND
-Text GLabel 9700 3550 2    60   Input ~ 0
-AREF
 Text GLabel 9050 4850 0    60   Input ~ 0
 GND
 Text GLabel 8250 4550 0    60   Input ~ 0
@@ -368,15 +333,6 @@ P 7450 4050
 F 0 "R12" V 7530 4050 50  0000 C CNN
 F 1 "1Meg" V 7450 4050 50  0000 C CNN
 	1    7450 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R14
-U 1 1 4DCAAA3A
-P 7950 3950
-F 0 "R14" V 8030 3950 50  0000 C CNN
-F 1 "510k" V 7950 3950 50  0000 C CNN
-	1    7950 3950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -507,15 +463,6 @@ P 6750 4750
 F 0 "C3" H 6800 4850 50  0000 L CNN
 F 1 "1uF" H 6800 4650 50  0000 L CNN
 	1    6750 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L R R13
-U 1 1 4D5B4C51
-P 7950 3750
-F 0 "R13" V 8030 3750 50  0000 C CNN
-F 1 "510k" V 7950 3750 50  0000 C CNN
-	1    7950 3750
 	0    1    1    0   
 $EndComp
 $Comp
