@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 27/08/2013 3:11:51 PM
+PCBNEW-BOARD Version 2 date 29/08/2013 4:34:47 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Control board"
-Date "27 aug 2013"
+Date "29 aug 2013"
 Rev "1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -113623,7 +113623,7 @@ De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "http://microfluidics.utoronto.ca/dropbot"
-nl "Control board v2.0.2"
+nl "Control board v2.0.3"
 Po 75.3 76 1 1 0.25 0
 De 21 1 0 Normal L C
 $EndTEXTPCB
