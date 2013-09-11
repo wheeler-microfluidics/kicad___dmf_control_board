@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 29/08/2013 4:34:47 PM
+PCBNEW-BOARD Version 2 date 11/09/2013 1:19:13 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Control board"
-Date "29 aug 2013"
+Date "11 sep 2013"
 Rev "1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -61,7 +61,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 284196865) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber))
+PcbPlotParams (pcbplotparams (layerselection 284983297) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerber))
 $EndSETUP
 
 $EQUIPOT
@@ -113623,7 +113623,7 @@ De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "http://microfluidics.utoronto.ca/dropbot"
-nl "Control board v2.0.3"
+nl "Control board v2.0.1"
 Po 75.3 76 1 1 0.25 0
 De 21 1 0 Normal L C
 $EndTEXTPCB
