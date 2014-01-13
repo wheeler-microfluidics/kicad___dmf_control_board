@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 11/09/2013 1:19:13 PM
+PCBNEW-BOARD Version 2 date 13/01/2014 1:38:47 PM
 
 # Created by Pcbnew(2013-07-07 BZR 4022)-stable
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 184
 NoConn 0
 Di 20.809499 14.9416 127.209501 95.776501
-Ndraw 12
+Ndraw 19
 Ntrack 696
 Nzone 0
 BoardThickness 1.6002
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Control board"
-Date "11 sep 2013"
+Date "13 jan 2014"
 Rev "1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -113568,6 +113568,41 @@ Of 0 0 0
 Ro 0 0 180
 $EndSHAPE3D
 $EndMODULE SOT23
+$TEXTPCB
+Te "J15"
+Po 120.2436 23.8506 0.5 0.5 0.125 0
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "J14"
+Po 45.085 22.6822 0.5 0.5 0.125 900
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "J13"
+Po 100.0125 70.866 0.5 0.5 0.125 900
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "J12"
+Po 77.1525 70.8279 0.5 0.5 0.125 900
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "J11"
+Po 54.2544 70.9041 0.5 0.5 0.125 900
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "J9"
+Po 72.0979 22.6314 0.5 0.5 0.125 900
+De 21 1 0 Normal
+$EndTEXTPCB
+$TEXTPCB
+Te "J10"
+Po 94.9071 22.5933 0.5 0.5 0.125 900
+De 21 1 0 Normal
+$EndTEXTPCB
 $DRAWSEGMENT
 Po 0 125.603 92.9386 125.603 20.066 0.381
 De 28 0 900 0 0
