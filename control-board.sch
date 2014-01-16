@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:control-board-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Control board"
-Date "16 aug 2013"
+Date "16 jan 2014"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -136,11 +135,11 @@ FEEDBACK
 Text GLabel 4950 3250 2    60   Input ~ 0
 GND
 Text GLabel 2300 2900 2    60   Input ~ 0
-SCL
+SCL_5V
 Text GLabel 2300 2800 2    60   Input ~ 0
 GND
 Text GLabel 2300 2600 2    60   Input ~ 0
-SDA
+SDA_5V
 Text Notes 5900 550  0    60   ~ 0
 Feedback resistor selection
 $Comp
