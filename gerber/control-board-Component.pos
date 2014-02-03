@@ -1,24 +1,24 @@
-### Module positions - created on 11/09/2013 1:16:11 PM ###
+### Module positions - created on 03/02/2014 5:41:22 PM ###
 ### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
 ## Unit = inches, Angle = deg.
 ## Side : Component
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-C1       0.1uF            SM0603              3.3310    -1.8650       0.0    Component
+C1       0.1uF            SM0603              3.0675    -1.8175       0.0    Component
 C2       0.1uF            SM0603              4.0990    -1.6000     270.0    Component
 C3       1uF              SM1206              1.7700    -2.7150       0.0    Component
 C4       1uF              SM1206              1.9950    -2.7900      90.0    Component
 C7       5pF              SM1206              2.6575    -2.2638     180.0    Component
 C8       0.1uF            SM0603              2.7756    -2.1614       0.0    Component
 C9       5pF              SM1206              2.6650    -1.7150      90.0    Component
-C10      0.1uF            SM0603              2.9700    -1.5900     180.0    Component
+C10      0.1uF            SM0603              2.8250    -1.5700     180.0    Component
 IC1      AQW216           8DIPCMS             2.1150    -2.4150     270.0    Component
 IC2      AQW216           8DIPCMS             2.1150    -1.9900     270.0    Component
 IC3      AQW216           8DIPCMS             2.1150    -1.5650     270.0    Component
 IC4      MCP6024          SO14E               2.7650    -1.9900       0.0    Component
-LED1     USB              LED-1206            3.7700    -1.8650     270.0    Component
-LED2     PWR              LED-1206            3.6200    -1.8650     270.0    Component
-R1       374              SM1206              3.7700    -1.6400     270.0    Component
-R2       374              SM1206              3.6200    -1.6400     270.0    Component
+LED1     USB              LED-1206            3.2875    -1.7050       0.0    Component
+LED2     PWR              LED-1206            3.2875    -1.5950       0.0    Component
+R1       374              SM1206              3.0800    -1.7050       0.0    Component
+R2       374              SM1206              3.0800    -1.5950       0.0    Component
 R3       10Meg            SM1206              1.7975    -3.0125     270.0    Component
 R4       374              SM1206              2.6200    -1.2150     270.0    Component
 R5       20k              SM1206              2.4400    -2.4650       0.0    Component
@@ -26,7 +26,7 @@ R6       1k               SM1206              2.4400    -2.5650       0.0    Com
 R7       374              SM1206              2.5200    -1.2150     270.0    Component
 R8       200k             SM1206              2.4400    -2.2650       0.0    Component
 R9       2Meg             SM1206              2.4400    -2.3650     180.0    Component
-R10      5.1k             SM1206              4.1403    -2.1372       0.0    Component
+R10      5.1k             SM1206              4.1500    -2.1375       0.0    Component
 R11      374              SM1206              2.4200    -1.2150     270.0    Component
 R12      100              SM1206              2.4400    -2.0400       0.0    Component
 R13      5.1k             SM1206              4.1403    -2.4085       0.0    Component
@@ -36,15 +36,15 @@ R16      374              SM1206              2.2200    -1.2150     270.0    Com
 R17      20k              SM1206              2.4400    -1.6150       0.0    Component
 R18      374              SM1206              2.1200    -1.2150     270.0    Component
 R19      200k             SM1206              2.4400    -1.4150       0.0    Component
-R20      5.1k             SM1206              4.1403    -2.0222       0.0    Component
+R20      5.1k             SM1206              4.1500    -2.0225       0.0    Component
 R21      5.1k             SM1206              4.1403    -2.2885       0.0    Component
 R22      2Meg             SM1206              2.4400    -2.1400     180.0    Component
-R23      10k              SM1206              2.9700    -1.7900     180.0    Component
-R24      10k              SM1206              2.9700    -1.6900       0.0    Component
-R25      1k               SM1206              3.9094    -1.9291      90.0    Component
+R23      10k              SM1206              2.8300    -1.7520     180.0    Component
+R24      10k              SM1206              2.8300    -1.6475       0.0    Component
+R25      1k               SM1206              4.0450    -1.8275      90.0    Component
 R26      1k               SM1206              4.2047    -1.8898       0.0    Component
 R27      4k               SM1206              4.4213    -1.8898     180.0    Component
-R28      10k              SM1206              3.5570    -1.0250     180.0    Component
-U1       4066             SO14E               3.3504    -2.0315       0.0    Component
+R28      10k              SM1206              3.5125    -1.0625     180.0    Component
+U1       4066             SO14E               3.1625    -1.9875       0.0    Component
 U2       4066             SO14E               4.3346    -1.6693       0.0    Component
 ## End

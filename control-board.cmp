@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 26/08/2013 3:58:06 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 03/02/2014 5:35:21 PM
 
 BeginCmp
 TimeStamp = /520DA2C5;
@@ -120,16 +120,37 @@ IdModule  = JACK_SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /51DD9062;
-Reference = J7;
-ValeurCmp = CONN_3;
+TimeStamp = /52EFD47E;
+Reference = JP1;
+ValeurCmp = JUMPER3;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D74F87;
-Reference = J8;
-ValeurCmp = CONN_3;
+TimeStamp = /52EFD44B;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EFD462;
+Reference = JP3;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EFD468;
+Reference = JP4;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EFD4BA;
+Reference = JP5;
+ValeurCmp = JUMPER3;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
@@ -166,6 +187,20 @@ TimeStamp = /5192D5A0;
 Reference = P3;
 ValeurCmp = CONN_8;
 IdModule  = Molex_4x2_Mini_Fit_Jr_RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F016DB;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F016E8;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp

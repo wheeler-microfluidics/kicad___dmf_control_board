@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Control board"
-Date "16 jan 2014"
+Date "3 feb 2014"
 Rev "v1.1"
 Comp "Wheeler Microfluidics Lab"
 Comment1 ""
@@ -44,7 +44,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5000 4550 2    60   Input ~ 0
+Text GLabel 5000 4700 2    60   Input ~ 0
 V_HV
 Text Notes 700  850  0    60   ~ 0
 Power supply connection
@@ -98,26 +98,26 @@ $EndComp
 $Comp
 L CONN_2 J6
 U 1 1 518D6C36
-P 4500 4450
-F 0 "J6" V 4450 4450 40  0000 C CNN
-F 1 "OUT_TO_HV_DRIVER" V 4650 4450 40  0000 C CNN
-F 2 "" H 4500 4450 60  0001 C CNN
-F 3 "" H 4500 4450 60  0001 C CNN
-	1    4500 4450
+P 4500 4600
+F 0 "J6" V 4450 4600 40  0000 C CNN
+F 1 "OUT_TO_HV_DRIVER" V 4650 4600 40  0000 C CNN
+F 2 "" H 4500 4600 60  0001 C CNN
+F 3 "" H 4500 4600 60  0001 C CNN
+	1    4500 4600
 	-1   0    0    -1  
 $EndComp
-Text Notes 4300 3000 0    60   ~ 0
+Text Notes 4300 3250 0    60   ~ 0
 BNC connections
-Text Notes 5050 4200 0    60   ~ 0
+Text Notes 5050 4350 0    60   ~ 0
 600V resistor
 Text GLabel 8350 650  0    60   Input ~ 0
-D13
+D9
 Text GLabel 8050 650  0    60   Input ~ 0
-D12
+D8
 Text GLabel 7500 650  0    60   Input ~ 0
-D11
+D7
 Text GLabel 7200 650  0    60   Input ~ 0
-D10
+D6
 Text GLabel 8500 3550 0    60   Input ~ 0
 VGND
 Text GLabel 6150 1000 0    60   Input ~ 0
@@ -132,14 +132,14 @@ Text GLabel 7300 3200 2    60   Input ~ 0
 HV_ATTEN
 Text GLabel 9900 2400 2    60   Input ~ 0
 FEEDBACK
-Text GLabel 4950 3250 2    60   Input ~ 0
+Text GLabel 4950 3400 2    60   Input ~ 0
 GND
 Text GLabel 2300 2900 2    60   Input ~ 0
-SCL_5V
+SCL_COM
 Text GLabel 2300 2800 2    60   Input ~ 0
 GND
 Text GLabel 2300 2600 2    60   Input ~ 0
-SDA_5V
+SDA_COM
 Text Notes 5900 550  0    60   ~ 0
 Feedback resistor selection
 $Comp
@@ -279,12 +279,12 @@ $EndComp
 $Comp
 L R R3
 U 1 1 518D6C4E
-P 5250 4000
-F 0 "R3" V 5330 4000 50  0000 C CNN
-F 1 "10Meg" V 5250 4000 50  0000 C CNN
-F 2 "" H 5250 4000 60  0001 C CNN
-F 3 "" H 5250 4000 60  0001 C CNN
-	1    5250 4000
+P 5250 4150
+F 0 "R3" V 5330 4150 50  0000 C CNN
+F 1 "10Meg" V 5250 4150 50  0000 C CNN
+F 2 "" H 5250 4150 60  0001 C CNN
+F 3 "" H 5250 4150 60  0001 C CNN
+	1    5250 4150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -323,36 +323,34 @@ $EndComp
 $Comp
 L CONN_2 J4
 U 1 1 518D6C52
-P 4500 3350
-F 0 "J4" V 4450 3350 40  0000 C CNN
-F 1 "IN_FROM_DEVICE" V 4650 3350 40  0000 C CNN
-F 2 "" H 4500 3350 60  0001 C CNN
-F 3 "" H 4500 3350 60  0001 C CNN
-	1    4500 3350
+P 4500 3500
+F 0 "J4" V 4450 3500 40  0000 C CNN
+F 1 "IN_FROM_DEVICE" V 4650 3500 40  0000 C CNN
+F 2 "" H 4500 3500 60  0001 C CNN
+F 3 "" H 4500 3500 60  0001 C CNN
+	1    4500 3500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_2 J5
 U 1 1 518D6C54
-P 4500 3900
-F 0 "J5" V 4450 3900 40  0000 C CNN
-F 1 "IN_FROM_AMP" V 4650 3900 40  0000 C CNN
-F 2 "" H 4500 3900 60  0001 C CNN
-F 3 "" H 4500 3900 60  0001 C CNN
-	1    4500 3900
+P 4500 4050
+F 0 "J5" V 4450 4050 40  0000 C CNN
+F 1 "IN_FROM_AMP" V 4650 4050 40  0000 C CNN
+F 2 "" H 4500 4050 60  0001 C CNN
+F 3 "" H 4500 4050 60  0001 C CNN
+	1    4500 4050
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 1050 5100
-Text GLabel 2450 4900 0    60   Input ~ 0
+Text GLabel 2450 4850 0    60   Input ~ 0
 PWR_ON
 Text GLabel 1350 7000 3    60   Input ~ 0
 GND
-NoConn ~ 3900 5100
-NoConn ~ 3800 5100
 Text GLabel 3550 5100 1    60   Input ~ 0
 SCL
-Text GLabel 1650 5100 1    60   Input ~ 0
-D9
+Text GLabel 2150 5100 1    60   Input ~ 0
+D5
 Text Notes 1850 4800 2    60   ~ 0
 Arduino Mega 2560/Due
 Text GLabel 1250 7000 3    60   Input ~ 0
@@ -361,22 +359,16 @@ Text GLabel 1850 7000 3    60   Input ~ 0
 FEEDBACK
 Text GLabel 1750 7000 3    60   Input ~ 0
 HV_ATTEN
-Text GLabel 3700 7000 3    60   Input ~ 0
-GND
-Text GLabel 3600 7000 3    60   Input ~ 0
-GND
 Text GLabel 3450 5100 1    60   Input ~ 0
 SDA
-Text GLabel 1550 5100 1    60   Input ~ 0
-D10
-Text GLabel 1450 5100 1    60   Input ~ 0
-D11
-Text GLabel 1350 5100 1    60   Input ~ 0
-D12
-Text GLabel 1250 5100 1    60   Input ~ 0
-D13
-Text GLabel 1150 5100 1    60   Input ~ 0
-GND
+Text GLabel 2050 5100 1    60   Input ~ 0
+D6
+Text GLabel 1950 5100 1    60   Input ~ 0
+D7
+Text GLabel 1750 5100 1    60   Input ~ 0
+D8
+Text GLabel 1650 5100 1    60   Input ~ 0
+D9
 NoConn ~ 2950 5100
 NoConn ~ 2850 5100
 NoConn ~ 3050 5100
@@ -389,7 +381,6 @@ NoConn ~ 4550 5100
 NoConn ~ 4650 5100
 NoConn ~ 4750 5100
 NoConn ~ 4450 5100
-NoConn ~ 1550 7000
 NoConn ~ 3050 7000
 NoConn ~ 3350 7000
 NoConn ~ 3250 7000
@@ -398,7 +389,6 @@ NoConn ~ 2650 7000
 NoConn ~ 2950 7000
 NoConn ~ 2850 7000
 NoConn ~ 2750 7000
-NoConn ~ 1950 5100
 NoConn ~ 3350 5100
 NoConn ~ 4150 7000
 NoConn ~ 5450 7000
@@ -421,9 +411,6 @@ NoConn ~ 5200 5100
 NoConn ~ 5100 5100
 NoConn ~ 5000 5100
 NoConn ~ 4900 5100
-NoConn ~ 2250 5100
-NoConn ~ 2150 5100
-NoConn ~ 2050 5100
 NoConn ~ 1050 7000
 Text Notes 1850 3750 0    60   ~ 0
 Power bus
@@ -451,28 +438,27 @@ Text GLabel 3300 4150 2    60   Input ~ 0
 NoConn ~ 3850 7000
 NoConn ~ 3950 7000
 NoConn ~ 4050 7000
-NoConn ~ 2350 5100
 NoConn ~ 2550 5100
 $Comp
 L C C4
 U 1 1 518D6C3C
-P 5700 4000
-F 0 "C4" H 5750 4100 50  0000 L CNN
-F 1 "1uF" H 5750 3900 50  0000 L CNN
-F 2 "" H 5700 4000 60  0001 C CNN
-F 3 "" H 5700 4000 60  0001 C CNN
-	1    5700 4000
+P 5700 4150
+F 0 "C4" H 5750 4250 50  0000 L CNN
+F 1 "1uF" H 5750 4050 50  0000 L CNN
+F 2 "" H 5700 4150 60  0001 C CNN
+F 3 "" H 5700 4150 60  0001 C CNN
+	1    5700 4150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C3
 U 1 1 518D6C47
-P 5700 3450
-F 0 "C3" H 5750 3550 50  0000 L CNN
-F 1 "1uF" H 5750 3350 50  0000 L CNN
-F 2 "" H 5700 3450 60  0001 C CNN
-F 3 "" H 5700 3450 60  0001 C CNN
-	1    5700 3450
+P 5700 3600
+F 0 "C3" H 5750 3700 50  0000 L CNN
+F 1 "1uF" H 5750 3500 50  0000 L CNN
+F 2 "" H 5700 3600 60  0001 C CNN
+F 3 "" H 5700 3600 60  0001 C CNN
+	1    5700 3600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -544,9 +530,9 @@ F 3 "" H 9450 2700 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6650 650  0    60   Input ~ 0
-D9
+D5
 Text GLabel 6350 650  0    60   Input ~ 0
-D8
+D4
 $Comp
 L R R16
 U 1 1 51913AAB
@@ -613,8 +599,8 @@ F 3 "" H 10750 3950 60  0001 C CNN
 	1    10750 3950
 	-1   0    0    1   
 $EndComp
-Text GLabel 1750 5100 1    60   Input ~ 0
-D8
+Text GLabel 2250 5100 1    60   Input ~ 0
+D4
 $Comp
 L CONN_8 P2
 U 1 1 5192D59A
@@ -646,7 +632,7 @@ GND
 Text GLabel 1150 7000 3    60   Input ~ 0
 +3.3V_ARDUINO
 Text GLabel 2300 2700 2    60   Input ~ 0
-+5V
+VCC_COM
 Text GLabel 7300 3750 0    60   Input ~ 0
 IOREF
 Text GLabel 700  3150 2    60   Input ~ 0
@@ -769,13 +755,13 @@ F 3 "" H 7450 5450 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 10400 3250 2    60   Input ~ 0
-V+
+VCC
 Text GLabel 8500 3650 0    60   Input ~ 0
 +5V_ARDUINO
 Text GLabel 10450 4500 0    60   Input ~ 0
 +5V_ARDUINO
 Text GLabel 7150 5100 0    60   Input ~ 0
-V+
+VCC
 Text GLabel 7750 4750 2    60   Input ~ 0
 +5V_ARDUINO
 Text GLabel 7750 5450 2    60   Input ~ 0
@@ -821,6 +807,251 @@ F 3 "" H 9450 4650 60  0001 C CNN
 	1    9450 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R13
+U 1 1 51D741AD
+P 3050 1350
+F 0 "R13" V 3130 1350 50  0000 C CNN
+F 1 "5.1k" V 3050 1350 50  0000 C CNN
+F 2 "" H 3050 1350 60  0001 C CNN
+F 3 "" H 3050 1350 60  0001 C CNN
+	1    3050 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 51D741B8
+P 2850 1350
+F 0 "R10" V 2930 1350 50  0000 C CNN
+F 1 "5.1k" V 2850 1350 50  0000 C CNN
+F 2 "" H 2850 1350 60  0001 C CNN
+F 3 "" H 2850 1350 60  0001 C CNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2850 1100 0    60   Input ~ 0
++3.3V
+Text GLabel 2750 1650 0    60   Input ~ 0
+SDA_3.3V
+Text GLabel 2750 2000 0    60   Input ~ 0
+SCL_3.3V
+$Comp
+L R R21
+U 1 1 51D749B5
+P 4100 1350
+F 0 "R21" V 4180 1350 50  0000 C CNN
+F 1 "5.1k" V 4100 1350 50  0000 C CNN
+F 2 "" H 4100 1350 60  0001 C CNN
+F 3 "" H 4100 1350 60  0001 C CNN
+	1    4100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 51D749BB
+P 3900 1350
+F 0 "R20" V 3980 1350 50  0000 C CNN
+F 1 "5.1k" V 3900 1350 50  0000 C CNN
+F 2 "" H 3900 1350 60  0001 C CNN
+F 3 "" H 3900 1350 60  0001 C CNN
+	1    3900 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 1650 2    60   Input ~ 0
+SDA_5V
+Text GLabel 4200 2000 2    60   Input ~ 0
+SCL_5V
+Text GLabel 4100 1100 2    60   Input ~ 0
++5V
+Text Notes 2200 1000 0    60   ~ 0
+i2c level shifting
+Text GLabel 3050 3000 2    60   Input ~ 0
++3.3VPWR
+Text GLabel 3050 2300 2    60   Input ~ 0
++5VPWR
+Text GLabel 3050 3500 2    60   Input ~ 0
++3.3V_ARDUINO
+Text GLabel 3050 2800 2    60   Input ~ 0
++5V_ARDUINO
+Text GLabel 3150 2550 2    60   Input ~ 0
++5V
+Text GLabel 3150 3250 2    60   Input ~ 0
++3.3V
+Text Notes 4150 2200 0    60   ~ 0
+Jumpers
+Text Notes 6400 3950 0    60   ~ 0
+If IOREF > 4V,\nassume +5V,\notherwise, +3.3V\nlogic levels
+NoConn ~ 4250 5100
+NoConn ~ 850  5100
+NoConn ~ 950  5100
+NoConn ~ 850  7000
+Text GLabel 950  7000 3    60   Input ~ 0
+IOREF
+NoConn ~ 5000 7000
+$Comp
+L C C1
+U 1 1 520DA2C5
+P 6850 4700
+F 0 "C1" H 6900 4800 50  0000 L CNN
+F 1 "0.1uF" H 6900 4600 50  0000 L CNN
+F 2 "" H 6850 4700 60  0001 C CNN
+F 3 "" H 6850 4700 60  0001 C CNN
+	1    6850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 520DA5A6
+P 10850 4600
+F 0 "C2" H 10900 4700 50  0000 L CNN
+F 1 "0.1uF" H 10900 4500 50  0000 L CNN
+F 2 "" H 10850 4600 60  0001 C CNN
+F 3 "" H 10850 4600 60  0001 C CNN
+	1    10850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28
+U 1 1 520DA7E2
+P 2700 4850
+F 0 "R28" V 2780 4850 50  0000 C CNN
+F 1 "10k" V 2700 4850 50  0000 C CNN
+F 2 "" H 2700 4850 60  0001 C CNN
+F 3 "" H 2700 4850 60  0001 C CNN
+	1    2700 4850
+	0    1    1    0   
+$EndComp
+Text GLabel 2950 4850 2    60   Input ~ 0
++5VSB
+$Comp
+L 2N7002 Q3
+U 1 1 520DADBA
+P 9350 5100
+F 0 "Q3" H 9350 4951 40  0000 R CNN
+F 1 "2N7002" H 9350 5250 40  0000 R CNN
+F 2 "SOT323" H 9220 5202 29  0000 C CNN
+F 3 "~" H 9350 5100 60  0000 C CNN
+	1    9350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N7002 Q1
+U 1 1 520DADDD
+P 3350 1550
+F 0 "Q1" H 3350 1401 40  0000 R CNN
+F 1 "2N7002" H 3350 1700 40  0000 R CNN
+F 2 "SOT323" H 3220 1652 29  0000 C CNN
+F 3 "~" H 3350 1550 60  0000 C CNN
+	1    3350 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L 2N7002 Q2
+U 1 1 520DADE3
+P 3750 1900
+F 0 "Q2" H 3750 1751 40  0000 R CNN
+F 1 "2N7002" H 3750 2050 40  0000 R CNN
+F 2 "SOT323" H 3620 2002 29  0000 C CNN
+F 3 "~" H 3750 1900 60  0000 C CNN
+	1    3750 1900
+	0    1    1    0   
+$EndComp
+NoConn ~ 1950 7000
+NoConn ~ 2050 7000
+NoConn ~ 2150 7000
+NoConn ~ 2250 7000
+NoConn ~ 2350 7000
+NoConn ~ 2450 7000
+Text GLabel 2300 3500 2    60   Input ~ 0
+SS
+Text GLabel 2300 3400 2    60   Input ~ 0
+MISO
+Text GLabel 2300 3300 2    60   Input ~ 0
+MOSI
+Text GLabel 2300 3200 2    60   Input ~ 0
+SCK
+$Comp
+L JUMPER3 JP2
+U 1 1 52EFD44B
+P 3050 3250
+F 0 "JP2" H 3100 3150 40  0000 L CNN
+F 1 "JUMPER3" H 3050 3350 40  0000 C CNN
+F 2 "~" H 3050 3250 60  0000 C CNN
+F 3 "~" H 3050 3250 60  0000 C CNN
+	1    3050 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER3 JP4
+U 1 1 52EFD468
+P 4650 2550
+F 0 "JP4" H 4700 2450 40  0000 L CNN
+F 1 "JUMPER3" H 4650 2650 40  0000 C CNN
+F 2 "~" H 4650 2550 60  0000 C CNN
+F 3 "~" H 4650 2550 60  0000 C CNN
+	1    4650 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L JUMPER3 JP1
+U 1 1 52EFD47E
+P 3050 2550
+F 0 "JP1" H 3100 2450 40  0000 L CNN
+F 1 "JUMPER3" H 3050 2650 40  0000 C CNN
+F 2 "~" H 3050 2550 60  0000 C CNN
+F 3 "~" H 3050 2550 60  0000 C CNN
+	1    3050 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3900 2800 2    60   Input ~ 0
++3.3V
+Text GLabel 3900 2300 2    60   Input ~ 0
++5V
+Text GLabel 4000 2550 2    60   Input ~ 0
+VCC_COM
+Text GLabel 4750 2550 2    60   Input ~ 0
+SDA_COM
+Text GLabel 4650 2800 2    60   Input ~ 0
+SDA_3.3V
+Text GLabel 4650 2300 2    60   Input ~ 0
+SDA_5V
+$Comp
+L JUMPER3 JP5
+U 1 1 52EFD4BA
+P 5400 2550
+F 0 "JP5" H 5450 2450 40  0000 L CNN
+F 1 "JUMPER3" H 5400 2650 40  0000 C CNN
+F 2 "~" H 5400 2550 60  0000 C CNN
+F 3 "~" H 5400 2550 60  0000 C CNN
+	1    5400 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5500 2550 2    60   Input ~ 0
+SCL_COM
+Text GLabel 5400 2800 2    60   Input ~ 0
+SCL_3.3V
+Text GLabel 5400 2300 2    60   Input ~ 0
+SCL_5V
+$Comp
+L JUMPER3 JP3
+U 1 1 52EFD462
+P 3900 2550
+F 0 "JP3" H 3950 2450 40  0000 L CNN
+F 1 "JUMPER3" H 3900 2650 40  0000 C CNN
+F 2 "~" H 3900 2550 60  0000 C CNN
+F 3 "~" H 3900 2550 60  0000 C CNN
+	1    3900 2550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5800 7000 3    60   Input ~ 0
+MISO
+Text GLabel 5600 7000 3    60   Input ~ 0
+SCK
+Text GLabel 5700 7000 3    60   Input ~ 0
+MOSI
+Text GLabel 1550 5100 1    60   Input ~ 0
+SS
+NoConn ~ 2350 5100
 Wire Wire Line
 	1200 2050 1550 2050
 Connection ~ 1500 2850
@@ -845,7 +1076,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 950  1300 1950
 Wire Wire Line
-	5000 4550 4850 4550
+	5000 4700 4850 4700
 Wire Wire Line
 	9150 4250 9150 3700
 Wire Wire Line
@@ -898,14 +1129,12 @@ Wire Wire Line
 Wire Wire Line
 	1200 2250 1550 2250
 Wire Wire Line
-	1450 7000 1350 7000
+	5000 4700 5000 4150
+Connection ~ 5000 4150
 Wire Wire Line
-	5000 4550 5000 4000
-Connection ~ 5000 4000
+	5000 4150 4850 4150
 Wire Wire Line
-	5000 4000 4850 4000
-Wire Wire Line
-	4850 3450 5500 3450
+	4850 3600 5500 3600
 Wire Wire Line
 	5900 2900 10100 2900
 Wire Wire Line
@@ -1007,14 +1236,14 @@ Connection ~ 2800 4550
 Wire Wire Line
 	700  4050 1500 4050
 Wire Wire Line
-	4950 4350 4850 4350
+	4950 4500 4850 4500
 Wire Wire Line
-	4950 3250 4950 4350
+	4950 3400 4950 4500
 Wire Wire Line
-	4950 3250 4850 3250
+	4950 3400 4850 3400
 Wire Wire Line
-	4850 3800 4950 3800
-Connection ~ 4950 3800
+	4850 3950 4950 3950
+Connection ~ 4950 3950
 Wire Wire Line
 	7300 3750 8500 3750
 Wire Wire Line
@@ -1023,8 +1252,6 @@ Wire Wire Line
 	8250 4350 8250 3850
 Wire Wire Line
 	8250 3850 8500 3850
-Wire Wire Line
-	6150 1950 6150 4000
 Connection ~ 6150 3450
 Wire Wire Line
 	6350 2450 6350 2950
@@ -1055,11 +1282,9 @@ Wire Wire Line
 Wire Wire Line
 	7750 4900 9050 4900
 Wire Wire Line
-	6150 4000 5900 4000
+	6150 4150 5900 4150
 Wire Wire Line
 	6150 3450 8500 3450
-Wire Wire Line
-	5900 3450 5900 2900
 Wire Wire Line
 	7300 4250 7300 4350
 Wire Wire Line
@@ -1091,36 +1316,8 @@ Wire Wire Line
 	9050 4900 9050 5150
 Wire Wire Line
 	9050 5150 9150 5150
-$Comp
-L R R13
-U 1 1 51D741AD
-P 3050 1350
-F 0 "R13" V 3130 1350 50  0000 C CNN
-F 1 "5.1k" V 3050 1350 50  0000 C CNN
-F 2 "" H 3050 1350 60  0001 C CNN
-F 3 "" H 3050 1350 60  0001 C CNN
-	1    3050 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R10
-U 1 1 51D741B8
-P 2850 1350
-F 0 "R10" V 2930 1350 50  0000 C CNN
-F 1 "5.1k" V 2850 1350 50  0000 C CNN
-F 2 "" H 2850 1350 60  0001 C CNN
-F 3 "" H 2850 1350 60  0001 C CNN
-	1    2850 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2850 1100 3700 1100
-Text GLabel 2850 1100 0    60   Input ~ 0
-+3.3V
-Text GLabel 2750 1650 0    60   Input ~ 0
-SDA_3.3V
-Text GLabel 2750 2000 0    60   Input ~ 0
-SCL_3.3V
 Wire Wire Line
 	2850 1600 2850 1650
 Connection ~ 2850 1650
@@ -1137,39 +1334,11 @@ Wire Wire Line
 Connection ~ 3300 1100
 Wire Wire Line
 	2750 2000 3550 2000
-$Comp
-L R R21
-U 1 1 51D749B5
-P 4100 1350
-F 0 "R21" V 4180 1350 50  0000 C CNN
-F 1 "5.1k" V 4100 1350 50  0000 C CNN
-F 2 "" H 4100 1350 60  0001 C CNN
-F 3 "" H 4100 1350 60  0001 C CNN
-	1    4100 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R20
-U 1 1 51D749BB
-P 3900 1350
-F 0 "R20" V 3980 1350 50  0000 C CNN
-F 1 "5.1k" V 3900 1350 50  0000 C CNN
-F 2 "" H 3900 1350 60  0001 C CNN
-F 3 "" H 3900 1350 60  0001 C CNN
-	1    3900 1350
-	1    0    0    -1  
-$EndComp
-Text GLabel 4200 1650 2    60   Input ~ 0
-SDA_5V
-Text GLabel 4200 2000 2    60   Input ~ 0
-SCL_5V
 Wire Wire Line
 	3550 1650 4200 1650
 Wire Wire Line
 	3900 1600 3900 1650
 Connection ~ 3900 1650
-Text GLabel 4100 1100 2    60   Input ~ 0
-+5V
 Wire Wire Line
 	3900 1100 4100 1100
 Wire Wire Line
@@ -1179,166 +1348,71 @@ Wire Wire Line
 Connection ~ 4100 2000
 Wire Wire Line
 	9450 5300 9450 5350
-Text Notes 2200 1000 0    60   ~ 0
-i2c level shifting
-$Comp
-L CONN_3 J8
-U 1 1 51D74F87
-P 3000 3100
-F 0 "J8" V 2950 3100 50  0000 C CNN
-F 1 "CONN_3" V 3050 3100 40  0000 C CNN
-F 2 "" H 3000 3100 60  0000 C CNN
-F 3 "" H 3000 3100 60  0000 C CNN
-	1    3000 3100
-	-1   0    0    1   
-$EndComp
-Text GLabel 3350 2600 2    60   Input ~ 0
-+3.3VPWR
-Text GLabel 3350 3000 2    60   Input ~ 0
-+5VPWR
-Text GLabel 3350 2800 2    60   Input ~ 0
-+3.3V_ARDUINO
-Text GLabel 3350 3200 2    60   Input ~ 0
-+5V_ARDUINO
-Text GLabel 3350 3100 2    60   Input ~ 0
-+5V
-Text GLabel 3350 2700 2    60   Input ~ 0
-+3.3V
-Text Notes 2900 2500 0    60   ~ 0
-Jumpers
-Text Notes 6400 3950 0    60   ~ 0
-If IOREF > 4V,\nassume +5V,\notherwise, +3.3V\nlogic levels
-$Comp
-L ARDUINO_DUE_SHIELD SHIELD1
-U 1 1 51DB1ACF
-P 3400 6000
-F 0 "SHIELD1" H 3400 8750 60  0000 C CNN
-F 1 "ARDUINO_DUE_SHIELD" H 3400 3550 60  0000 C CNN
-F 2 "~" H 3400 6000 60  0000 C CNN
-F 3 "~" H 3400 6000 60  0000 C CNN
-	1    3400 6000
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 4250 5100
-NoConn ~ 850  5100
-NoConn ~ 950  5100
-NoConn ~ 850  7000
-Text GLabel 950  7000 3    60   Input ~ 0
-IOREF
-NoConn ~ 5000 7000
-$Comp
-L CONN_3 J7
-U 1 1 51DD9062
-P 3000 2700
-F 0 "J7" V 2950 2700 50  0000 C CNN
-F 1 "CONN_3" V 3050 2700 40  0000 C CNN
-F 2 "" H 3000 2700 60  0000 C CNN
-F 3 "" H 3000 2700 60  0000 C CNN
-	1    3000 2700
-	-1   0    0    1   
-$EndComp
-Text GLabel 1950 7000 3    60   Input ~ 0
-AD2
-Text GLabel 2050 7000 3    60   Input ~ 0
-AD3
-Text GLabel 2150 7000 3    60   Input ~ 0
-AD4
-Text GLabel 2300 3500 2    60   Input ~ 0
-AD2
-Text GLabel 2300 3400 2    60   Input ~ 0
-AD3
-Text GLabel 2300 3300 2    60   Input ~ 0
-AD4
-Text GLabel 2300 3200 2    60   Input ~ 0
-AD5
-Text GLabel 2300 3100 2    60   Input ~ 0
-AD6
-Text GLabel 2300 3000 2    60   Input ~ 0
-AD7
-Text GLabel 2250 7000 3    60   Input ~ 0
-AD5
-Text GLabel 2350 7000 3    60   Input ~ 0
-AD6
-Text GLabel 2450 7000 3    60   Input ~ 0
-AD7
-$Comp
-L C C1
-U 1 1 520DA2C5
-P 6850 4700
-F 0 "C1" H 6900 4800 50  0000 L CNN
-F 1 "0.1uF" H 6900 4600 50  0000 L CNN
-F 2 "" H 6850 4700 60  0001 C CNN
-F 3 "" H 6850 4700 60  0001 C CNN
-	1    6850 4700
-	1    0    0    -1  
-$EndComp
 Connection ~ 7450 4500
 Wire Wire Line
 	6850 4900 6850 5000
 Wire Wire Line
 	6850 5000 7450 5000
-$Comp
-L C C2
-U 1 1 520DA5A6
-P 10850 4600
-F 0 "C2" H 10900 4700 50  0000 L CNN
-F 1 "0.1uF" H 10900 4500 50  0000 L CNN
-F 2 "" H 10850 4600 60  0001 C CNN
-F 3 "" H 10850 4600 60  0001 C CNN
-	1    10850 4600
-	1    0    0    -1  
-$EndComp
 Connection ~ 10450 4400
 Wire Wire Line
 	10450 5000 10850 5000
 Wire Wire Line
 	10850 5000 10850 4800
-$Comp
-L R R28
-U 1 1 520DA7E2
-P 2700 4900
-F 0 "R28" V 2780 4900 50  0000 C CNN
-F 1 "10k" V 2700 4900 50  0000 C CNN
-F 2 "" H 2700 4900 60  0001 C CNN
-F 3 "" H 2700 4900 60  0001 C CNN
-	1    2700 4900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	2450 4900 2450 5100
-Text GLabel 2950 4900 2    60   Input ~ 0
-+5VSB
+	6150 1950 6150 4150
+Wire Wire Line
+	5900 2900 5900 3600
+NoConn ~ 1250 5100
+NoConn ~ 1350 5100
+NoConn ~ 1450 5100
+Wire Wire Line
+	2450 5100 2450 4850
 $Comp
-L 2N7002 Q3
-U 1 1 520DADBA
-P 9350 5100
-F 0 "Q3" H 9350 4951 40  0000 R CNN
-F 1 "2N7002" H 9350 5250 40  0000 R CNN
-F 2 "SOT323" H 9220 5202 29  0000 C CNN
-F 3 "~" H 9350 5100 60  0000 C CNN
-	1    9350 5100
+L ARDUINO_DUE_SHIELD SHIELD1
+U 1 1 51DB1ACF
+P 3400 6000
+F 0 "SHIELD1" H 3400 8750 60  0000 C CNN
+F 1 "ARDUINO_DUE_SHIELD" H 3350 3150 60  0000 C CNN
+F 2 "~" H 3400 6000 60  0000 C CNN
+F 3 "~" H 3400 6000 60  0000 C CNN
+	1    3400 6000
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1550 7000
+NoConn ~ 3750 5100
+NoConn ~ 3850 5100
+NoConn ~ 5900 7000
+NoConn ~ 6100 7000
+Text GLabel 1450 7000 3    60   Input ~ 0
+GND
+Text GLabel 3550 7000 3    60   Input ~ 0
+GND
+Text GLabel 3650 7000 3    60   Input ~ 0
+GND
+Text GLabel 6000 7000 3    60   Input ~ 0
+GND
+Text GLabel 1150 5100 1    60   Input ~ 0
+GND
+$Comp
+L CONN_1 P4
+U 1 1 52F016DB
+P 2450 3000
+F 0 "P4" H 2530 3000 40  0000 L CNN
+F 1 "CONN_1" H 2450 3055 30  0001 C CNN
+F 2 "" H 2450 3000 60  0000 C CNN
+F 3 "" H 2450 3000 60  0000 C CNN
+	1    2450 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2N7002 Q1
-U 1 1 520DADDD
-P 3350 1550
-F 0 "Q1" H 3350 1401 40  0000 R CNN
-F 1 "2N7002" H 3350 1700 40  0000 R CNN
-F 2 "SOT323" H 3220 1652 29  0000 C CNN
-F 3 "~" H 3350 1550 60  0000 C CNN
-	1    3350 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L 2N7002 Q2
-U 1 1 520DADE3
-P 3750 1900
-F 0 "Q2" H 3750 1751 40  0000 R CNN
-F 1 "2N7002" H 3750 2050 40  0000 R CNN
-F 2 "SOT323" H 3620 2002 29  0000 C CNN
-F 3 "~" H 3750 1900 60  0000 C CNN
-	1    3750 1900
-	0    1    1    0   
+L CONN_1 P5
+U 1 1 52F016E8
+P 2450 3100
+F 0 "P5" H 2530 3100 40  0000 L CNN
+F 1 "CONN_1" H 2450 3155 30  0001 C CNN
+F 2 "" H 2450 3100 60  0000 C CNN
+F 3 "" H 2450 3100 60  0000 C CNN
+	1    2450 3100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
