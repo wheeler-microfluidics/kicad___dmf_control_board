@@ -1,17 +1,17 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 03/02/2014 5:35:21 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/05/2014 9:36:59 AM
 
 BeginCmp
 TimeStamp = /520DA2C5;
 Reference = C1;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /520DA5A6;
 Reference = C2;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -29,6 +29,13 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /536AA73C;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /5191398B;
 Reference = C7;
 ValeurCmp = 5pF;
@@ -39,7 +46,7 @@ BeginCmp
 TimeStamp = /518D6C41;
 Reference = C8;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -53,7 +60,7 @@ BeginCmp
 TimeStamp = /51913AEA;
 Reference = C10;
 ValeurCmp = 0.1uF;
-IdModule  = SM0603;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -120,37 +127,65 @@ IdModule  = JACK_SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EFD47E;
+TimeStamp = /536A9E31/52EFD47E;
 Reference = JP1;
-ValeurCmp = JUMPER3;
+ValeurCmp = +5V;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EFD44B;
+TimeStamp = /536A9E31/52EFD44B;
 Reference = JP2;
-ValeurCmp = JUMPER3;
+ValeurCmp = +3.3V;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EFD462;
+TimeStamp = /536A9E31/52EFD462;
 Reference = JP3;
-ValeurCmp = JUMPER3;
+ValeurCmp = VCC_COM;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EFD468;
+TimeStamp = /536A9E31/52EFD468;
 Reference = JP4;
-ValeurCmp = JUMPER3;
+ValeurCmp = SDA_COM;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EFD4BA;
+TimeStamp = /536A9E31/52EFD4BA;
 Reference = JP5;
-ValeurCmp = JUMPER3;
+ValeurCmp = SCL_COM;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A9E31/536AA09D;
+Reference = JP6;
+ValeurCmp = MISO_COM;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A9E31/536AA066;
+Reference = JP7;
+ValeurCmp = MOSI_COM;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A9E31/536AA072;
+Reference = JP8;
+ValeurCmp = SCK_COM;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A9E31/536AA088;
+Reference = JP9;
+ValeurCmp = SS_COM;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
@@ -192,14 +227,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52F016DB;
 Reference = P4;
-ValeurCmp = CONN_1;
+ValeurCmp = 5;
 IdModule  = PIN_ARRAY_1;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F016E8;
 Reference = P5;
-ValeurCmp = CONN_1;
+ValeurCmp = 6;
 IdModule  = PIN_ARRAY_1;
 EndCmp
 
@@ -421,6 +456,27 @@ IdModule  = SM1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /536A912A;
+Reference = R29;
+ValeurCmp = 5.1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A9E31/536AA352;
+Reference = R30;
+ValeurCmp = 1k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A9E31/536AA35F;
+Reference = R31;
+ValeurCmp = 2k;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /51DB1ACF;
 Reference = SHIELD1;
 ValeurCmp = ARDUINO_DUE_SHIELD;
@@ -439,6 +495,13 @@ TimeStamp = /51D728E4;
 Reference = U2;
 ValeurCmp = 4066;
 IdModule  = SO14E;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A910F;
+Reference = U3;
+ValeurCmp = 74LS245;
+IdModule  = SO20L;
 EndCmp
 
 EndListe
