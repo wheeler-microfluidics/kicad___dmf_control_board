@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/ryan/Dropbox/dropbot/electronics/dmf_control_board/control-board.sch)
-    (date "08/05/2014 2:42:42 PM")
+    (date "27/05/2014 3:27:00 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref R2)
