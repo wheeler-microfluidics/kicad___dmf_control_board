@@ -6,7 +6,7 @@ IC4,"IC, Opamp, Quad, R-R, 14-SOIC",MICROCHIP TECHNOLOGY,MCP6024-I/SL,1,http://s
 J1,CONN HEADER 20POS 4.2MM VERT TIN,MOLEX INC,39-29-9202,1,http://search.digikey.com/us/en/products/39-29-9202/WM7346-ND/265350
 J2,"Connector, PCB, Right Angle, 10 Position",OMRON ELECTRONICS INC,XG4A-1034,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1001-ND
 J4 J5,"Connector, PCB, Right Angle, BNC",TYCO ELECTRONICS,5227161-2,2,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A32245-ND
-J6,"Connector, PCB, Right Angle, SMA",MOLEX INC,733910320,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM8554-ND
+J6,"Connector, PCB, Right Angle, SMA",TE CONNECTIVITY,5-1814400-1,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97593-ND
 J9 J10 J11 J12 J13,"Arduino stackable header pins, 8x1",SAMTEC INC,SSQ-108-23-F-S,5,http://www.samtec.com/Search/search.aspx?q=SSQ-108-23-F-S
 J14,"Arduino stackable header pins, 10x1",SAMTEC INC,SSQ-110-23-F-S,1,http://www.samtec.com/Search/search.aspx?q=SSQ-110-23-F-S
 J15,"Arduino stackable header pins, 16x2",SAMTEC INC,SSQ-116-23-F-D,1,http://www.samtec.com/Search/search.aspx?q=SSQ-116-23-F-D
