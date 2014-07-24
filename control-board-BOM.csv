@@ -1,6 +1,7 @@
 Reference Designator,Description,Manufacturer,Part No.,Qty,Link
 C1 C2 C5 C8 C10,"Capacitor, Ceramic, 0.1uf, 10%, 50V, X7R",KEMET ELECTRONICS CORPORATION,C1206C104K5RACTU,5,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1249-1-ND
 C3 C4,"Capacitor, Ceramic, 1uF, 100V, X7R, 1206","SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31B105KCHSNNE,2,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-2747-1-ND
+C9,"Capacitor, Ceramic, 1pF, 50V, NP0, 1206","SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C010CBCNNNC,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-2796-1-ND
 IC1 IC2 IC3,"Relay, PhotoMOS, 600V",PANASONIC ELECTRIC WORKS,AQW216EHA,3,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=255-2671-ND
 IC4,"IC, Opamp, Quad, R-R, 14-SOIC",MICROCHIP TECHNOLOGY,MCP6024-I/SL,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=MCP6024-I/SL-ND
 J1,CONN HEADER 20POS 4.2MM VERT TIN,MOLEX INC,39-29-9202,1,http://search.digikey.com/us/en/products/39-29-9202/WM7346-ND/265350
@@ -30,4 +31,4 @@ U1 U2,"IC, SWITCH QUAD 1X1 ",NXP SEMICONDUCTORS,74HCT4066D,2,http://search.digik
 U3,"IC, Bus Tranceiver, 8-bit, 20-SOIC",TEXAS INSTRUMENTS,SN74LVC245ADWR,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-1232-1-ND
 S1-9,"Shunt Jumper .1""",3M,969102-0000-DA,5,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=3M9580-ND
 ,,,,,
-"Note: C7, C9, and S1-9 do not have to be placed",,,,,
+Note: C7 and S1-9 do not have to be placed,,,,,

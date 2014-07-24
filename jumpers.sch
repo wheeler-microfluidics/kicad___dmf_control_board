@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "Control board"
-Date "27 may 2014"
+Date "24 jul 2014"
 Rev "v2.1"
 Comp "Ryan Fobel"
 Comment1 ""

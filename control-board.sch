@@ -37,7 +37,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Control board"
-Date "27 may 2014"
+Date "24 jul 2014"
 Rev "v2.1"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -523,7 +523,7 @@ L C C9
 U 1 1 51913A25
 P 8800 2800
 F 0 "C9" H 8850 2900 50  0000 L CNN
-F 1 "5pF" H 8850 2700 50  0000 L CNN
+F 1 "1pF" H 8850 2700 50  0000 L CNN
 F 2 "" H 8800 2800 60  0001 C CNN
 F 3 "" H 8800 2800 60  0001 C CNN
 	1    8800 2800
