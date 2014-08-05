@@ -30,15 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:control-board-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 2
 Title "Control board"
-Date "24 jul 2014"
-Rev "v2.1"
+Date "5 aug 2014"
+Rev "v2.1.1"
 Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
@@ -755,13 +754,13 @@ F 3 "" H 6800 5550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 9750 3350 2    60   Input ~ 0
-VCC
+V+
 Text GLabel 7850 3750 0    60   Input ~ 0
 +5V_ARDUINO
 Text GLabel 9800 4600 0    60   Input ~ 0
 +5V_ARDUINO
 Text GLabel 6500 5200 0    60   Input ~ 0
-VCC
+V+
 Text GLabel 7100 4850 2    60   Input ~ 0
 +5V_ARDUINO
 Text GLabel 7100 5550 2    60   Input ~ 0

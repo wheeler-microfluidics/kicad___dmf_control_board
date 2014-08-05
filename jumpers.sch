@@ -30,15 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:control-board-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "Control board"
-Date "24 jul 2014"
-Rev "v2.1"
+Date "5 aug 2014"
+Rev "v2.1.1"
 Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
