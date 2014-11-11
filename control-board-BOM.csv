@@ -24,7 +24,7 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 23,5,R10 R13 R20 R21 R29,"Resistor, Metal Film, 5.1k, 5%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206JT5K10,RMCF1206JT5K10CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206JT5K10CT-ND
 24,3,R23 R24 R28,"Resistor, Metal Film, 10k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT10K0,RMCF1206FT10K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT10K0CT-ND
 25,2,R5 R17,"Resistor, Metal Film, 20k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT20K0,RMCF1206FT20K0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT20K0CT-ND
-26,2,R8 R19,"Resistor, Metal Film, 200k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT200K,RMCF1206FT200KCT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT200KCT-ND
+26,2,R8 R19,"Resistor, Metal Film, 220k, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT220K,RMCF1206FT220KCT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT220KCT-ND
 27,2,R9 R22,"Resistor, Metal Film, 2M, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,RMCF1206FT2M00,RMCF1206FT2M00CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=RMCF1206FT2M00CT-ND
 28,1,R3,"Resistor, High Voltage, 10M, 1%, 1/4W, 1206",1206,SMT,STACKPOLE ELECTRONICS INC,HVCB1206FKC10M0,HVCB1206FKC10M0CT-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=HVCB1206FKC10M0CT-ND
 29,2,U1 U2,"IC, SWITCH QUAD 1X1 ",14-SOIC,SMT,NXP SEMICONDUCTORS,74HCT4066D,568-8177-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-8177-1-ND
