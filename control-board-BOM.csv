@@ -10,7 +10,7 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 9,1,J6,"Connector, PCB, Right Angle, SMA",header,Though-hole,TE CONNECTIVITY,5-1814400-1,A97593-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97593-ND
 10,5,J9 J10 J11 J12 J13,"Arduino stackable header pins, 8x1",header,Though-hole,SAMTEC INC,SSQ-108-23-F-S,,http://www.samtec.com/Search/search.aspx?q=SSQ-108-23-F-S
 11,1,J14,"Arduino stackable header pins, 10x1",header,Though-hole,SAMTEC INC,SSQ-110-23-F-S,,http://www.samtec.com/Search/search.aspx?q=SSQ-110-23-F-S
-12,1,J15,"Arduino stackable header pins, 16x2",header,Though-hole,SAMTEC INC,SSQ-116-23-F-D,,http://www.samtec.com/Search/search.aspx?q=SSQ-116-23-F-D
+12,1,J15,"Arduino stackable header pins, 18x2",header,Though-hole,SAMTEC INC,SSQ-118-23-F-D,,http://www.samtec.com/Search/search.aspx?q=SSQ-118-23-F-D
 13,1,J16,"Arduino stackable header pins, 3x2",header,Though-hole,SAMTEC INC,SSQ-103-23-F-D,,http://www.samtec.com/Search/search.aspx?q=SSQ-103-23-F-D
 14,9,JP1-9,"Male Headers Pins, 0.1"" spacing, 3x1",header,Though-hole,OMRON ELECTRONICS INC,XG8S-0331,OR1104-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1104-ND
 15,2,LED1 LED2,"LED, Vis, Solid State, Green, 1206",1206,SMT,KINGBRIGHT COMPANY LLC,APL3015SGC-F01,754-1111-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=754-1111-1-ND
@@ -31,4 +31,5 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 30,1,U3,"IC, Bus Tranceiver, 8-bit, 20-SOIC",20-SOIC,SMT,TEXAS INSTRUMENTS,SN74LVC245ADWR,296-1232-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-1232-1-ND
 31,5,S1-9,"Shunt Jumper .1""",N/A,N/A,3M,969102-0000-DA,3M9580-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=3M9580-ND
 ,,,,,,,,,
-Note: C7 and S1-9 do not have to be placed,,,,,,,,,
+Notes: C7 and S1-9 do not have to be placed,,,,,,,,,
+J9-16 can be purchased as a kit: http://www.nkcelectronics.com/header-pack-for-megashield-for-arduino-mega-stackable.html,,,,,,,,,
