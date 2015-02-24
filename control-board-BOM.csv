@@ -30,6 +30,9 @@ Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,D
 29,2,U1 U2,"IC, SWITCH QUAD 1X1 ",14-SOIC,SMT,NXP SEMICONDUCTORS,74HCT4066D,568-8177-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=568-8177-1-ND
 30,1,U3,"IC, Bus Tranceiver, 8-bit, 20-SOIC",20-SOIC,SMT,TEXAS INSTRUMENTS,SN74LVC245ADWR,296-1232-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=296-1232-1-ND
 31,5,S1-9,"Shunt Jumper .1""",N/A,N/A,3M,969102-0000-DA,3M9580-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=3M9580-ND
+32,2,H1 H2,Hex Nut for BNC,N/A,N/A,TE CONNECTIVITY,1-1634816-0,A97566-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97566-ND
+33,2,H3 H4,Lock washer for BNC,N/A,N/A,TE CONNECTIVITY,1-1634817-0,A97567-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97567-ND
 ,,,,,,,,,
 Notes: C7 and S1-9 do not have to be placed,,,,,,,,,
 J9-16 can be purchased as a kit: http://www.nkcelectronics.com/header-pack-for-megashield-for-arduino-mega-stackable.html,,,,,,,,,
+H3 and H4 are optional,,,,,,,,,
