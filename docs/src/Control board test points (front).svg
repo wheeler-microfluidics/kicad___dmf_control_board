@@ -17,7 +17,7 @@
    height="765"
    xml:space="preserve"
    sodipodi:docname="Control board test points (front).svg"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\src\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\dmf_control_board\docs\png\Control board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"><sodipodi:namedview
      pagecolor="#ffffff"
@@ -28,20 +28,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1849"
+     inkscape:window-width="1850"
      inkscape:window-height="1058"
      id="namedview131159"
      showgrid="false"
      inkscape:zoom="0.7071068"
-     inkscape:cx="395.64089"
-     inkscape:cy="293.64529"
-     inkscape:window-x="63"
+     inkscape:cx="549.77923"
+     inkscape:cy="328.9225"
+     inkscape:window-x="62"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="g131165" /><metadata
      id="metadata131163"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs131161"><marker
        inkscape:stockid="Arrow2Mend"
        orient="auto"
@@ -229,6 +229,50 @@
          id="path331186-54"
          style="font-size:12px;fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" /></marker><marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-1"
+       style="overflow:visible"><path
+         inkscape:connector-curvature="0"
+         id="path3811-7"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" /></marker><marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker10806"
+       style="overflow:visible"><path
+         inkscape:connector-curvature="0"
+         id="path10808"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" /></marker><marker
+       inkscape:stockid="Arrow2MendoF"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2MendoF-40"
+       style="overflow:visible"><path
+         inkscape:connector-curvature="0"
+         id="path331186-94"
+         style="font-size:12px;fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" /></marker><marker
+       inkscape:stockid="Arrow2MendoF"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2MendoF-8"
+       style="overflow:visible"><path
+         inkscape:connector-curvature="0"
+         id="path331186-24"
+         style="font-size:12px;fill:#ffff00;fill-rule:evenodd;stroke:#ffff00;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
          transform="scale(-0.6,-0.6)" /></marker></defs><g
      id="g131165"
      inkscape:groupmode="layer"
@@ -243,7 +287,7 @@
    id="image331171"
    x="75.258179"
    y="20.654016"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -251,7 +295,7 @@
    id="path20153"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -259,14 +303,14 @@
    id="path20153-9"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208"
    transform="translate(-415.94643,229.77677)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237"><path
    sodipodi:type="arc"
    style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -296,20 +340,22 @@
 
 
 
+
+
 </g></g><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 468.95007,467.68533 L 450.57101,432.07944"
    id="path20153-1"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208-4"
    transform="translate(-355.71195,251.08623)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8"><path
    sodipodi:type="arc"
    style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -339,20 +385,22 @@
 
 
 
+
+
 </g></g><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 449.70587,472.36905 L 451.21419,443.83422"
    id="path20153-1-4"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208-4-1"
    transform="translate(-379.79778,256.38953)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1"><path
    sodipodi:type="arc"
    style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -382,20 +430,22 @@
 
 
 
+
+
 </g></g><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 445.72839,405.25805 L 452.09807,412.96245"
    id="path20153-1-4-2"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208-4-1-2"
    transform="translate(-385.98496,174.47348)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1"><path
    sodipodi:type="arc"
    style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -425,20 +475,22 @@
 
 
 
+
+
 </g></g><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 440.53013,351.75706 L 452.42408,384.2102"
    id="path20153-1-4-2-5"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208-4-1-2-7"
    transform="translate(-389.74147,119.60856)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1-6"><path
    sodipodi:type="arc"
    style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
@@ -468,13 +520,15 @@
 
 
 
+
+
 </g></g><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 179.87324,298.96268 L 86.56719,301.41582"
    id="path20153-1-4-2-5-4"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    sodipodi:type="arc"
@@ -484,9 +538,9 @@
    sodipodi:cy="191.34534"
    sodipodi:rx="26.742584"
    sodipodi:ry="26.21822"
-   d="M 1046.6314,191.34534 A 26.742584,26.21822 0 1 1 993.14621,191.34534 A 26.742584,26.21822 0 1 1 1046.6314,191.34534 z"
+   d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
    transform="matrix(0.35603365,0,0,-0.36315432,-175.96721,367.71043)"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><text
    xml:space="preserve"
@@ -496,7 +550,7 @@
    id="text19634-2-2-8-8-8"
    sodipodi:linespacing="125%"
    transform="scale(1,-1)"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"><tspan
      sodipodi:role="line"
@@ -504,13 +558,15 @@
      x="187.14948"
      y="-295.35931"
      style="font-size:8px;fill:#000000">GND</tspan></text>
+
+
 <path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 180.35749,294.88566 L 86.85144,205.7388"
    id="path20153-1-4-2-5-4-1"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -518,7 +574,7 @@
    id="path20153-1-4-2-5-1"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -526,7 +582,7 @@
    id="path20153-1-4-2-5-1-9"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -534,7 +590,7 @@
    id="path20153-1-4-2-5-1-0"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -542,7 +598,7 @@
    id="path20153-1-4-2-5-1-9-8"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -550,7 +606,7 @@
    id="path20153-1-4-2-5-1-9-8-3"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
@@ -558,14 +614,14 @@
    id="path20153-1-4-2-5-1-9-8-3-8"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208-4-1-2-7-1-2-2-1"
    transform="translate(-301.1267,127.42993)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1-6-5-1-4-1"><g
        id="g3153-6-5-5"><path
    transform="matrix(0.35603365,0,0,-0.36315432,464.81197,294.05796)"
@@ -590,12 +646,14 @@
      id="tspan19636-4-7-5-9-6-7-7-6"
      sodipodi:role="line">10</tspan></text>
 
+
+
 </g></g></g><g
    id="g331208-4-1-2-7-1-2"
    transform="translate(-353.31663,104.22899)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1-6-5-1"><g
        id="g3153-6"><path
    transform="matrix(0.35603365,0,0,-0.36315432,464.81197,294.05796)"
@@ -621,12 +679,14 @@
      sodipodi:role="line">7</tspan></text>
 
 
+
+
 </g></g></g><g
    id="g331208-4-1-2-7-1"
    transform="translate(-373.84128,105.85617)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1-6-5"><g
        id="g3153"><path
    transform="matrix(0.35603365,0,0,-0.36315432,464.81197,294.05796)"
@@ -652,12 +712,14 @@
      sodipodi:role="line">6</tspan></text>
 
 
+
+
 </g></g></g><g
    id="g331208-4-1-2-7-1-2-2-5"
    transform="translate(-334.7267,108.62993)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1-6-5-1-4-7"><g
        id="g3153-6-5-6"><path
    transform="matrix(0.35603365,0,0,-0.36315432,464.81197,294.05796)"
@@ -682,20 +744,22 @@
      id="tspan19636-4-7-5-9-6-7-7-9"
      sodipodi:role="line">8</tspan></text>
 
+
+
 </g></g></g><path
    style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
    d="M 507.47835,344.67929 L 494.31301,381.72309"
    id="path20153-1-4-2-5-1-9-8-3-3"
    inkscape:connector-curvature="0"
    sodipodi:nodetypes="cc"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300" /><g
    id="g331208-4-1-2-7-1-2-2"
    transform="translate(-316.3267,115.82993)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><g
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><g
      id="g331237-8-1-1-6-5-1-4"><g
        id="g3153-6-5"><path
    transform="matrix(0.35603365,0,0,-0.36315432,464.81197,294.05796)"
@@ -720,6 +784,8 @@
      id="tspan19636-4-7-5-9-6-7-7"
      sodipodi:role="line">9</tspan></text>
 
+
+
 </g></g></g><text
    xml:space="preserve"
    style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -730,7 +796,7 @@
    transform="scale(1,-1)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><tspan
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><tspan
      sodipodi:role="line"
      x="35.312599"
      y="-156.87193"
@@ -807,6 +873,8 @@
 
 
 
+
+
 <text
    xml:space="preserve"
    style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -817,7 +885,7 @@
    transform="scale(1,-1)"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
-   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board test points (front).png"><tspan
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"><tspan
      sodipodi:role="line"
      x="36.609947"
      y="-579.2829"
@@ -832,5 +900,119 @@
 
 
 
+
+
+
+<path
+   style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
+   d="M 344.76237,335.49643 L 362.58718,322.51796"
+   id="path20153-1-8-5"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cc"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300" /><g
+   id="g20710-6-17-5-4"
+   transform="translate(-490.11275,-40.215187)"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"><g
+     id="g10813-8"><path
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   sodipodi:type="arc"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+   id="path19638-8-4-5-8"
+   sodipodi:cx="1019.8888"
+   sodipodi:cy="191.34534"
+   sodipodi:rx="26.742584"
+   sodipodi:ry="26.21822"
+   d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+   transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)" /><text
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   xml:space="preserve"
+   style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   x="830.72125"
+   y="-373.97275"
+   id="text19634-5-0-1-2"
+   sodipodi:linespacing="125%"
+   transform="scale(1,-1)"><tspan
+     sodipodi:role="line"
+     id="tspan19636-7-9-7-4"
+     x="830.72125"
+     y="-373.97275"
+     style="font-size:11.19999981px">11</tspan></text>
+
+</g></g><path
+   style="fill:#ffff00;stroke:#ffff00;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2MendoF)"
+   d="M 416.60443,321.35431 L 395.96263,335.52874"
+   id="path20153-1-8"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cc"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300" /><g
+   id="g20710-6-17-5-1"
+   transform="translate(-409.78545,-56.620059)"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"><g
+     id="g10813-5"><path
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   sodipodi:type="arc"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+   id="path19638-8-4-5-2"
+   sodipodi:cx="1019.8888"
+   sodipodi:cy="191.34534"
+   sodipodi:rx="26.742584"
+   sodipodi:ry="26.21822"
+   d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+   transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)" /><text
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   xml:space="preserve"
+   style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   x="830.72125"
+   y="-373.97275"
+   id="text19634-5-0-1-7"
+   sodipodi:linespacing="125%"
+   transform="scale(1,-1)"><tspan
+     sodipodi:role="line"
+     id="tspan19636-7-9-7-6"
+     x="830.72125"
+     y="-373.97275"
+     style="font-size:11.19999981px">12</tspan></text>
+
+</g></g><text
+   xml:space="preserve"
+   style="font-size:40px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   x="188.03749"
+   y="-114.99141"
+   id="text19634-2-2-8-4-8-51"
+   sodipodi:linespacing="125%"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\signal_generator_board\docs\png\Signal generator board test points (front).png"
+   transform="scale(1,-1)"><tspan
+     sodipodi:role="line"
+     x="188.03749"
+     y="-114.99141"
+     style="font-size:11.19999981px;text-align:start;text-anchor:start;fill:#000000"
+     id="tspan3135-6">11. <tspan
+   style="font-weight:bold"
+   id="tspan3351">HV_ATTEN_ALT</tspan></tspan><tspan
+     sodipodi:role="line"
+     x="188.03749"
+     y="-100.99141"
+     style="font-size:11.19999981px;text-align:start;text-anchor:start;fill:#000000"
+     id="tspan3348">12. <tspan
+   style="font-weight:bold"
+   id="tspan3344">HV_ATTEN</tspan></tspan></text>
 
 </g></svg>

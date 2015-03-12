@@ -16,7 +16,7 @@
    height="765"
    xml:space="preserve"
    sodipodi:docname="Control board schematic (p1).svg"
-   inkscape:export-filename="C:\Users\ryan\Desktop\Control board schematic (p1).png"
+   inkscape:export-filename="C:\Users\ryan\Documents\dev\dropbot\electronics\dmf_control_board\docs\png\Control board schematic (p1).png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"><metadata
      id="metadata4320"><rdf:RDF><cc:Work
@@ -163,6 +163,28 @@
          id="path3811-9"
          style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" /></marker><marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-17"
+       style="overflow:visible"><path
+         inkscape:connector-curvature="0"
+         id="path3811-40"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
+         transform="scale(-0.6,-0.6)" /></marker><marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend-551"
+       style="overflow:visible"><path
+         inkscape:connector-curvature="0"
+         id="path3811-7"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z"
          transform="scale(-0.6,-0.6)" /></marker></defs><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -176,9 +198,9 @@
      inkscape:window-height="878"
      id="namedview4316"
      showgrid="false"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="1045.2528"
-     inkscape:cy="126.5607"
+     inkscape:zoom="0.5"
+     inkscape:cx="771.65853"
+     inkscape:cy="463.31851"
      inkscape:window-x="97"
      inkscape:window-y="1072"
      inkscape:window-maximized="1"
@@ -30839,6 +30861,7 @@
 
 
 
+
 </g><path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 818.27702,376.3708 L 823.477,365.63544"
@@ -30880,6 +30903,7 @@
 
 
 
+
 </g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 721.27312,346.73771 L 703.20005,335.60989"
@@ -30915,6 +30939,7 @@
      x="831.48145"
      id="tspan19636-1-1"
      sodipodi:role="line">3</tspan></text>
+
 
 
 
@@ -30966,6 +30991,7 @@
 
 
 
+
 </g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 598.77037,108.51873 L 586.52549,122.19819"
@@ -31012,6 +31038,7 @@
 
 
 
+
 </g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 519.75574,278.54289 L 508.75939,264.22235"
@@ -31042,33 +31069,34 @@
        inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board schematic (p1).png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><path
-         transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)"
-         d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
-         sodipodi:ry="26.21822"
-         sodipodi:rx="26.742584"
-         sodipodi:cy="191.34534"
-         sodipodi:cx="1019.8888"
-         id="path19638-8-4"
-         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         sodipodi:type="arc"
-         inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300" /><text
-         transform="scale(1,-1)"
-         sodipodi:linespacing="125%"
-         id="text19634-5-0"
-         y="-373.90439"
-         x="831.48145"
-         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"
-         inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           style="font-size:11.19999981px"
-           y="-373.90439"
-           x="831.48145"
-           id="tspan19636-7-9"
-           sodipodi:role="line">9</tspan></text>
+   transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)"
+   d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+   sodipodi:ry="26.21822"
+   sodipodi:rx="26.742584"
+   sodipodi:cy="191.34534"
+   sodipodi:cx="1019.8888"
+   id="path19638-8-4"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+   sodipodi:type="arc"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300" /><text
+   transform="scale(1,-1)"
+   sodipodi:linespacing="125%"
+   id="text19634-5-0"
+   y="-373.90439"
+   x="831.48145"
+   style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   xml:space="preserve"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"><tspan
+     style="font-size:11.19999981px"
+     y="-373.90439"
+     x="831.48145"
+     id="tspan19636-7-9"
+     sodipodi:role="line">9</tspan></text>
+
 </g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 513.97558,239.319 L 491.26551,243.66465"
@@ -31084,33 +31112,34 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><g
          id="g10813"><path
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
-           sodipodi:type="arc"
-           style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-           id="path19638-8-4-5"
-           sodipodi:cx="1019.8888"
-           sodipodi:cy="191.34534"
-           sodipodi:rx="26.742584"
-           sodipodi:ry="26.21822"
-           d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
-           transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)" /><text
-           inkscape:export-ydpi="300"
-           inkscape:export-xdpi="300"
-           inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
-           xml:space="preserve"
-           style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-           x="830.72125"
-           y="-373.97275"
-           id="text19634-5-0-1"
-           sodipodi:linespacing="125%"
-           transform="scale(1,-1)"><tspan
-             sodipodi:role="line"
-             id="tspan19636-7-9-7"
-             x="830.72125"
-             y="-373.97275"
-             style="font-size:11.19999981px">10</tspan></text>
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   sodipodi:type="arc"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+   id="path19638-8-4-5"
+   sodipodi:cx="1019.8888"
+   sodipodi:cy="191.34534"
+   sodipodi:rx="26.742584"
+   sodipodi:ry="26.21822"
+   d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+   transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)" /><text
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   xml:space="preserve"
+   style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   x="830.72125"
+   y="-373.97275"
+   id="text19634-5-0-1"
+   sodipodi:linespacing="125%"
+   transform="scale(1,-1)"><tspan
+     sodipodi:role="line"
+     id="tspan19636-7-9-7"
+     x="830.72125"
+     y="-373.97275"
+     style="font-size:11.19999981px">10</tspan></text>
+
 </g></g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 438.87609,233.8772 L 467.47773,212.76843"
@@ -31152,6 +31181,7 @@
      x="831.48145"
      id="tspan19636-7-4-4"
      sodipodi:role="line">7</tspan></text>
+
 
 </g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
@@ -31195,6 +31225,7 @@
      id="tspan19636-7-4"
      sodipodi:role="line">6</tspan></text>
 
+
 </g><path
        style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
        d="M 533.51942,226.5722 L 510.52651,213.09876"
@@ -31209,31 +31240,116 @@
        inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board schematic (p1).png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><path
-         transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)"
-         d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
-         sodipodi:ry="26.21822"
-         sodipodi:rx="26.742584"
-         sodipodi:cy="191.34534"
-         sodipodi:cx="1019.8888"
-         id="path19638-8-4-8"
-         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         sodipodi:type="arc"
-         inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300" /><text
-         transform="scale(1,-1)"
-         sodipodi:linespacing="125%"
-         id="text19634-5-0-5"
-         y="-373.90439"
-         x="831.48145"
-         style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         xml:space="preserve"
-         inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
-         inkscape:export-xdpi="300"
-         inkscape:export-ydpi="300"><tspan
-           style="font-size:11.19999981px"
-           y="-373.90439"
-           x="831.48145"
-           id="tspan19636-7-9-76"
-           sodipodi:role="line">8</tspan></text>
-</g></g></svg>
+   transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)"
+   d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+   sodipodi:ry="26.21822"
+   sodipodi:rx="26.742584"
+   sodipodi:cy="191.34534"
+   sodipodi:cx="1019.8888"
+   id="path19638-8-4-8"
+   style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+   sodipodi:type="arc"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300" /><text
+   transform="scale(1,-1)"
+   sodipodi:linespacing="125%"
+   id="text19634-5-0-5"
+   y="-373.90439"
+   x="831.48145"
+   style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   xml:space="preserve"
+   inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"><tspan
+     style="font-size:11.19999981px"
+     y="-373.90439"
+     x="831.48145"
+     id="tspan19636-7-9-76"
+     sodipodi:role="line">8</tspan></text>
+
+</g><path
+       style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 394.85796,282.02824 L 388.55276,306.73856"
+       id="path20153-6-2-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board schematic (p1).png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" /><g
+       id="g20710-6-17-5-4"
+       transform="translate(-435.40422,-100.17783)"
+       inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board schematic (p1).png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><g
+         id="g10813-8"><path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+           sodipodi:type="arc"
+           style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path19638-8-4-5-8"
+           sodipodi:cx="1019.8888"
+           sodipodi:cy="191.34534"
+           sodipodi:rx="26.742584"
+           sodipodi:ry="26.21822"
+           d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+           transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)" /><text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="830.72125"
+           y="-373.97275"
+           id="text19634-5-0-1-2"
+           sodipodi:linespacing="125%"
+           transform="scale(1,-1)"><tspan
+             sodipodi:role="line"
+             id="tspan19636-7-9-7-4"
+             x="830.72125"
+             y="-373.97275"
+             style="font-size:11.19999981px">11</tspan></text>
+</g></g><path
+       style="fill:none;stroke:#000000;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 556.64399,375.08348 L 565.89515,363.58994"
+       id="path20153-6-2-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board schematic (p1).png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" /><g
+       id="g20710-6-17-5-1"
+       transform="translate(-279.27504,2.7769185)"
+       inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\png\Control board schematic (p1).png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><g
+         id="g10813-5"><path
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+           sodipodi:type="arc"
+           style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:2.22484016;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path19638-8-4-5-2"
+           sodipodi:cx="1019.8888"
+           sodipodi:cy="191.34534"
+           sodipodi:rx="26.742584"
+           sodipodi:ry="26.21822"
+           d="M 1046.6314,191.34534 C 1046.6314,205.82526 1034.6583,217.56356 1019.8888,217.56356 C 1005.1193,217.56356 993.14621,205.82526 993.14621,191.34534 C 993.14621,176.86541 1005.1193,165.12712 1019.8888,165.12712 C 1034.6583,165.12712 1046.6314,176.86541 1046.6314,191.34534 z"
+           transform="matrix(0.35603365,0,0,-0.36315432,467.9456,447.41726)" /><text
+           inkscape:export-ydpi="300"
+           inkscape:export-xdpi="300"
+           inkscape:export-filename="C:\Users\ryan\Dropbox\dropbot\docs\Control board\g20710-6-1.png"
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="830.72125"
+           y="-373.97275"
+           id="text19634-5-0-1-7"
+           sodipodi:linespacing="125%"
+           transform="scale(1,-1)"><tspan
+             sodipodi:role="line"
+             id="tspan19636-7-9-7-6"
+             x="830.72125"
+             y="-373.97275"
+             style="font-size:11.19999981px">12</tspan></text>
+</g></g></g></svg>
