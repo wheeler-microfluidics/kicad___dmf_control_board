@@ -1,4 +1,4 @@
-### Module positions - created on 05/08/2014 12:15:45 PM ###
+### Module positions - created on 17/03/2015 2:50:30 PM ###
 ### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
 ## Unit = inches, Angle = deg.
 ## Side : Component
@@ -10,7 +10,7 @@ C4       1uF              SM1206              1.9950    -2.7900      90.0    Com
 C5       0.1uF            SM1206              4.0070    -2.9070     180.0    Component
 C7       5pF              SM1206              2.6565    -2.2920     180.0    Component
 C8       0.1uF            SM1206              2.7405    -2.1875       0.0    Component
-C9       5pF              SM1206              2.6580    -1.7460      90.0    Component
+C9       1pF              SM1206              2.6580    -1.7460      90.0    Component
 C10      0.1uF            SM1206              2.7490    -1.5630     180.0    Component
 IC1      AQW216           8DIPCMS             2.1150    -2.4150     270.0    Component
 IC2      AQW216           8DIPCMS             2.1150    -1.9900     270.0    Component
